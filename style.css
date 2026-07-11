@@ -157,7 +157,7 @@ color: var(--text-dark);
 /* ------------ HEROOO CONTAINER ------------- */
 main  .hero-container{
   width: 100%;
-  height: 100vh;
+  height: 100%;
   margin: 0 auto;
   padding: 8rem 0rem;
   background-image:
@@ -171,17 +171,17 @@ main  .hero-container{
 
 .hero-container h1 {
  font-family: "Sansita Swashed", system-ui;
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   font-weight: 500;
   padding: 0 2rem;;
-  line-height: 2.9rem;
+  line-height: 1;
   color: var(--white);
   text-align: left;
 }
 
 .hero-container p {
   font-family: "Inter", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
   line-height: 1.2rem;
@@ -193,10 +193,10 @@ main  .hero-container{
 
 
 .hero-btn{
-  padding: 0.6rem 2rem;
+  padding: 0.6rem 1rem;
   outline: none;
   border: none;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 500;
   color: var(--white);
   background-color: var(--primary-color);
@@ -214,7 +214,7 @@ main  .hero-container{
 }
 
 .learn_text{
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   font-weight: 500;
   color: #e94b1b;
   cursor: pointer;
@@ -316,18 +316,16 @@ main  .hero-container{
 .discount_container{
   position: relative;
     width: 100%;
-   height: auto;
    margin: 0 auto;
    overflow: hidden;
 }
 .discount_container img{
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
 }
 .group_info{
  width: 100%;
- height: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -336,10 +334,11 @@ main  .hero-container{
   justify-content: center;
   align-items: center; 
   font-family: "Inter", sans-serif;
+   padding-top: 0.6rem;
 }
 .group_info h4 {
   font-family: "Sansita Swashed", system-ui;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 550;
   text-align: center;
   line-height: 1.2;
@@ -351,9 +350,10 @@ main  .hero-container{
   text-align: center;
   padding-bottom: 0.5rem;
   color: var(--text-light);
+  width: 60%;
 }
 .group-btn{
-  margin: 0rem 1.6rem;
+  margin: 0rem 1rem;
     padding: 0.4rem 0.6rem;
   outline: none;
   border: none;
@@ -453,10 +453,12 @@ main  .hero-container{
   flex-direction: column;
   justify-content: center;
   align-items: center; 
+  padding-top: 0.4rem;
+    
 }
 .about_info h4 {
   font-family: "Sansita Swashed", system-ui;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 550;
   text-align: center;
   line-height: 1.2;
@@ -465,7 +467,7 @@ main  .hero-container{
 }
 
 .about_info p {
-  font-size: 0.4rem;
+  font-size: 0.6rem;
   font-weight: 360;
   text-align: center;
   padding-bottom: 0.6rem;
@@ -476,7 +478,7 @@ main  .hero-container{
 }
 
 .about-btn{
-    margin: 0.2rem 1.7rem;
+    margin: 0.2rem 1rem;
     padding: 0.4rem 0.8rem;
   outline: none;
   border: none;
@@ -491,7 +493,7 @@ main  .hero-container{
 
 /* ----------FEATURE CONTAINER------- */
 
-.gallery-1{
+.feature-set{
    width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -499,16 +501,16 @@ main  .hero-container{
   margin-top: 2rem;
 }
 
-.gallery-1 img{
+.feature-set img{
  margin: 0 auto;
-  width: 70%;
+  width: 100%;
   height: auto;
   object-fit: cover;
   border-radius: 6px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: block;
   transition: transform 0.3 ease;
-  
+ 
 }
 .content_details{
   font-family: "Inter", sans-serif;
@@ -518,15 +520,15 @@ main  .hero-container{
   align-items: center;
   color: var(--text-dark);
   margin: 0.9rem 0;
-  padding: 0 2.8rem;
+  padding: 0 ;
 }
 
 .content_details h5{
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: 600;
 }
 .content_details p{
-  font-size: 0.7rem;
+  font-size: 0.8rem;
     font-weight: 600;
 }
 /* --------- FOOTER CONTAINER ------------ */
@@ -686,13 +688,16 @@ border-radius: 2px;
   width: 1200px;
  }
 .hero-container p {
-  font-size: 1.4rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
   width: 100%;
 }
 .hero-container h1 {
-  font-size: 3.2rem;
+  font-size: 5rem;
   line-height: 1.2;
+}
+.hero_content{
+  margin-left: 0.8rem;
 }
 .hero-btn{
   padding: 0.6rem 1.8rem;
@@ -712,9 +717,12 @@ border-radius: 2px;
   width: 100%;
   height: auto;
 }
-}
+
 
 /* DISCOUNT 768 */
+.group_info {
+     padding-top: 1.4rem;
+    }
 .group_info p {
   font-size: 1rem;
   margin-top: 0.7rem;
@@ -725,15 +733,11 @@ border-radius: 2px;
   font-size: 1.8rem;
  line-height: 1.2;
 }
-.group_info p {
-  font-size: 1rem;
-  margin-top: 0.7rem;
-  
-}
+
 .group-btn{
   padding: 0.7rem 1.2rem;
   font-size: 1rem ;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 
@@ -767,7 +771,7 @@ border-radius: 2px;
 /* --------- FEATURE 768 ---------- */
 
 
- .gallery-1{
+ .feature-set{
    width: 94%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -776,7 +780,7 @@ border-radius: 2px;
   margin: 4rem 2.4rem;
 }
 
-.gallery-1 img{
+.feature-set img{
  margin: 0 auto;
   width: 100%;
   height: auto;
@@ -801,6 +805,8 @@ border-radius: 2px;
     padding: 2.6rem 2.6rem;
 }
   
+}
+
 
 /* ----- 1024 SIZE  ------ */
  @media all and (min-width: 1024px){
@@ -914,7 +920,9 @@ font-size: 1.4rem;
  
 }
 /* DISCOUNT 1024 */
-
+    .group_info {
+     padding-top: 2.6rem;
+    }
  .group_info h4 {
   font-size: 3rem;
  line-height: 1.2;
@@ -986,7 +994,7 @@ font-size: 1.4rem;
 
 /* --------- FEATURE 1024 ---------- */
 
- .gallery-1{
+ .feature-set{
    width: 94%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -995,7 +1003,7 @@ font-size: 1.4rem;
   margin: 4rem 2.4rem;
 }
 
-.gallery-1 img{
+.feature-set img{
  margin: 0 auto;
   width: 100%;
   height: auto;
