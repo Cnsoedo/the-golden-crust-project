@@ -766,16 +766,32 @@ border-radius: 2px;
 }
 /* --------- FEATURE 768 ---------- */
 
-/* .gallery-1{
-  gap: 10px;
-  
-} */
+
+ .gallery-1{
+   width: 94%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+
+  margin: 4rem 2.4rem;
+}
+
+.gallery-1 img{
+ margin: 0 auto;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: block;
+  transition: transform 0.3 ease;
+}  
 .content_details h5{
-  font-size: 1.2rem;
+  font-size: 1rem;
 
 }
 .content_details p{
-  font-size: 1.2rem;
+  font-size: 1rem;
 } 
 
 /* FOOTER 768 */
