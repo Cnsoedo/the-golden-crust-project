@@ -103,7 +103,7 @@ color: #111111;
 .section_header{
   font-family: "Sansita Swashed", system-ui;
   max-width: 100%;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   font-size: 1.6rem;
   font-weight: 600;
   line-height: 3rem;
@@ -111,7 +111,7 @@ color: #111111;
   text-align: center;
 }
 .section_description{
-  padding-bottom: 1.8rem;
+  padding-bottom: 1.2rem;
   color: var(--text-light);
   font-size: 0.9rem;
   text-align: center;
@@ -322,7 +322,7 @@ main  .hero-container{
   color: #2c2523;
   display: flex;
  justify-content: center;
- gap: 12px;
+ gap: 8px;
  border-bottom: 1px solid #e0dcd8;
  width: 100%;
  margin-bottom: 6px;
@@ -332,7 +332,7 @@ main  .hero-container{
 .tab{
   text-decoration: none;
   color: #5d5d5d;
-  font-size: 24px;
+  font-size: 10px;
   font-weight: 500;
   padding-bottom: 8px;
   position: relative;
