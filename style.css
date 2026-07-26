@@ -495,9 +495,9 @@ margin: 0 auto;
 
 
  .footer_container{
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
-  padding: 2rem 0rem;
+ 
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("./img/footer\ mat.png");
